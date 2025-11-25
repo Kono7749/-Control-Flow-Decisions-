@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+    int N;
+    int sum = 0;
+    int i;
+
+    if (scanf("%d", &N) != 1){
+        return 1;
+    }
+
+    for (i = 1; i <= N; i++){
+        sum = sum + i;
+    }
+
+    printf("%d\n", sum);
+    
+    return 0;
+}
